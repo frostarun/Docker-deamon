@@ -13,4 +13,4 @@ ExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:2376 -H unix:///var/run/docker.sock 
 systemctl daemon-reload <br />
 systemctl restart docker.service <br />
 
-# Now docker deamon will run
+# Now docker deamon will run in port 2376
